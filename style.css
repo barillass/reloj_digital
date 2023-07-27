@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Varela Round', sans-serif;
+    background: #1A2980;  /* fallback for old browsers */
+    background: linear-gradient(90deg, #29DCA6 0%, #7EC5F3 48%, #331BB5 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Varela Round', sans-serif;
+    width: 30%;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.8px);
+    -webkit-backdrop-filter: blur(3.8px);
+    border: 1px solid rgba(255, 255, 255, 0.27);
+}
+
+h2{
+    font-size: 50px;
+}
+
+.reloj{
+    font-size: 20px;
+}
+
+p{
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+}
+
+span{
+    position: absolute;
+    font-size: 100px;
+    color: rgb(142, 225, 236);
+    transform: rotate(-30deg);
+}
